@@ -10,8 +10,9 @@ You will need the following to proceed:
 
 ## Supported Operations
 The connector supports the following operations:
-* `Retrieve Passive DNS information for domain`: Retrieve Passive DNS enrichment data for domain.
-* `Retrieve Passive DNS information for IP address`: Retrieve Passive DNS enrichment data for IP address.
+* `Retrieve DNSDB’s RRset index information for domain`: The “rrset” lookup queries DNSDB’s RRset index, which supports “forward” lookups based on the owner name of an RRset.
+* `Retrieve DNSDB’s Rdata index information for IP address`: The “rdata” lookup queries DNSDB’s Rdata index, which supports “inverse” lookups based on Rdata record values.
+* `Retrieve DNSDB’s Rdata index information for domain`: The “rdata” lookup queries DNSDB’s Rdata index, which supports “inverse” lookups based on Rdata record values.
 
 ## Support and documentation: 
 For all the support requests and general queries you can contact support@farsight.com or visit [contact-us](https://www.farsightsecurity.com/about-farsight-security/contacts/)
